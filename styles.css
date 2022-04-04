@@ -1,0 +1,103 @@
+body{
+    font-size: 22px;
+    margin: 0;
+    background-color: rgb(245, 245, 245);
+    /* background-color: blanchedalmond; */
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.nav-hr{
+    margin-bottom: 20px;
+}
+
+nav ul{
+    list-style:none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li{
+    padding-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #353535;
+}
+
+.background-image{
+    background-image: url("img/images.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 0;
+    padding-bottom: 200px;
+}
+
+.text-light{
+    color: white;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+img{
+    width: 50%
+}
+
+.profile-pic{
+    width: 300px;
+    height: 300px;
+    border-radius: 51%;
+    margin-top: 10%;
+}
+
+h1{
+    font-size: 72px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.text{
+    overflow-wrap: break-word;
+    max-width: 400px;
+}
+.text-3{
+    font-size: 40px;
+    text-align: center;
+    line-height: 1.25em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.quote{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.contact-us{
+    background-color: rgb(240, 240, 240);
+    align-items: center;
+}
+
+.text-center{
+    text-align: center;
+}
